@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3480" started-at="2019-07-23T09:03:10Z" finished-at="2019-07-23T09:03:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3480" started-at="2019-07-23T09:03:10Z" finished-at="2019-07-23T09:03:14Z">
+      <class name="LobsterApiTest.SearchCourceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LobsterApiTest.SearchCourceTest@2a5ca609]" name="setUp" is-config="true" duration-ms="4" started-at="2019-07-23T11:03:11Z" finished-at="2019-07-23T11:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postAPITest(java.lang.String, java.lang.String)[pri:0, instance:LobsterApiTest.SearchCourceTest@2a5ca609]" name="postAPITest" duration-ms="1121" started-at="2019-07-23T11:03:11Z" data-provider="searchCourceDatagetter" finished-at="2019-07-23T11:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vodka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITest -->
+        <test-method status="PASS" signature="postAPITest(java.lang.String, java.lang.String)[pri:0, instance:LobsterApiTest.SearchCourceTest@2a5ca609]" name="postAPITest" duration-ms="695" started-at="2019-07-23T11:03:12Z" data-provider="searchCourceDatagetter" finished-at="2019-07-23T11:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vodka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LobsterApiTest.SearchCourceTest@2a5ca609]" name="setUp" is-config="true" duration-ms="0" started-at="2019-07-23T11:03:12Z" finished-at="2019-07-23T11:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LobsterApiTest.SearchCourceTest@2a5ca609]" name="setUp" is-config="true" duration-ms="1" started-at="2019-07-23T11:03:12Z" finished-at="2019-07-23T11:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postAPITest(java.lang.String, java.lang.String)[pri:0, instance:LobsterApiTest.SearchCourceTest@2a5ca609]" name="postAPITest" duration-ms="609" started-at="2019-07-23T11:03:12Z" data-provider="searchCourceDatagetter" finished-at="2019-07-23T11:03:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vodka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITest -->
+        <test-method status="PASS" signature="postAPITest(java.lang.String, java.lang.String)[pri:0, instance:LobsterApiTest.SearchCourceTest@2a5ca609]" name="postAPITest" duration-ms="613" started-at="2019-07-23T11:03:13Z" data-provider="searchCourceDatagetter" finished-at="2019-07-23T11:03:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vodka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LobsterApiTest.SearchCourceTest@2a5ca609]" name="setUp" is-config="true" duration-ms="0" started-at="2019-07-23T11:03:13Z" finished-at="2019-07-23T11:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- LobsterApiTest.SearchCourceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
