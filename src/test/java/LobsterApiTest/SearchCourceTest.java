@@ -2,6 +2,9 @@ package LobsterApiTest;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import org.testng.Assert;
 import java.io.IOException;
 import java.util.HashMap;
@@ -54,12 +57,12 @@ public class SearchCourceTest extends TestBase {
 		
 		//1. status code:
 		int statusCode = closebaleHttpResponse.getStatusLine().getStatusCode();
-		Assert.assertEquals(statusCode, testBase.RESPONSE_STATUS_CODE_200);
+		AssertJUnit.assertEquals(statusCode, testBase.RESPONSE_STATUS_CODE_200);
 		
 		//2. JsonString:
 		String responseString = EntityUtils.toString(closebaleHttpResponse.getEntity(), "UTF-8");
 		
-		Assert.assertTrue(jsonutils.findingsubstring(responseString,isearchQuery)> 0);
+		AssertJUnit.assertTrue(jsonutils.findingsubstring(responseString,isearchQuery)> 0);
 		
 		
 	}
